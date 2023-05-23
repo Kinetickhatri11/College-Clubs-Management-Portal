@@ -1,7 +1,7 @@
 import "./App.css";
-import Navbar from "./components/Navbar";
+import Navbar from "../src/components/Navbar/Navbar";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "../src/components/pages/Home";
+import Home from "../src/screens/Home";
 import { Fragment } from "react";
 
 function App() {
