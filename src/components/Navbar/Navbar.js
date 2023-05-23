@@ -33,9 +33,9 @@ function Navbar() {
                     <li className='nav-item'><Link to="/" className='nav-links' onClick={closeMobileMenu}>Home</Link></li>
                     <li className='nav-item'><Link to="/services" className='nav-links' onClick={closeMobileMenu}>Service</Link></li>
                     <li className='nav-item'><Link to="/products" className='nav-links' onClick={closeMobileMenu}>Products</Link></li>
-                    <li className='nav-item'><Link to="/sign-up" className='nav-links' onClick={closeMobileMenu}>Sign Up</Link></li>
+                    <li className='nav-item'><Link to="/sign-up" className='nav-links' onClick={closeMobileMenu}>Sign In</Link></li>
                 </ul>
-                {button && <Button buttonStyle="btn--outline">Sign In</Button>}
+                {button && <Button buttonStyle="btn--outline">Sign Up</Button>}
             </div>
         </nav>
     </>
