@@ -47,7 +47,7 @@ const SignUp = () => {
           <input type="submit" className="btn btn-primary " value="Login" />
         </form>
         <a className="text-white cursor-pointer pb-36 ">
-          Don't have an account? <Link to="/register">Sign Up</Link>
+          Don't have an account? <Link to="/sign-up">Sign Up</Link>
         </a>
       </section>
     </Fragment>
